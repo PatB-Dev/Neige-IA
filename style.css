@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+.snowflake {
+  position: absolute;
+  pointer-events: none;
+}
+
+.snowflake.small {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.snowflake.medium {
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  background-color: white;
+}
+
+.snowflake.large {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
